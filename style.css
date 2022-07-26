@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(https://tipsmake.com/data/images/100-most-beautiful-background-picture-53-Xxh0iqPga.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colored {
+  background-color: green;
+}
+
+table,
+th,
+tr {
+  border: solid black 3px;
+  border-radius: 5px;
+  height: 100px;
+  width: 1200px;
+  font-size: 40px;
+  background-color: white;
+}
+
+table {
+  margin: 40px;
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+button {
+  background-color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+  transition: 0.3s;
+}
